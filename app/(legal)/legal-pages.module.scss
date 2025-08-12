@@ -1,5 +1,7 @@
-.legal {
-  .inner {
-    @apply flex flex-col gap-[1.6rem];
+.legal .inner {
+  @apply flex flex-col gap-[1.6rem];
+
+  ul, ol {
+    list-style: unset;
   }
 }

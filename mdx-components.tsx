@@ -45,6 +45,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           borderRadius: '2.0rem',
           padding: '2.0rem',
           border: '1px solid rgb(var(--colors-top-border))',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '1.0rem',
         }}
       >
         {children}
