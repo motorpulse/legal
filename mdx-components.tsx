@@ -1,3 +1,4 @@
+import cn from 'classnames';
 import type { MDXComponents } from 'mdx/types';
 
 import { Heading } from '@/components/ui/kit';
@@ -24,5 +25,17 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ...createHeadingComponent(3),
     ...createHeadingComponent(4),
     ...createHeadingComponent(5),
+    // eslint-disable-next-line jsdoc/require-jsdoc
+    a: ({ children, href }) => (
+      <a
+        href={href}
+        className={cn('')}
+        style={{
+          color: 'rgb(var(--colors-accent))',
+        }}
+      >
+        <u className={cn('text-current')}>{children}</u>
+      </a>
+    ),
   };
 }
