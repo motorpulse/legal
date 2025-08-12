@@ -14,3 +14,4 @@ _Scaffolded from [``next-template``](https://github.com/XenoPOMP/next-template).
 
 - #### [Documentation](https://next-template-docs.vercel.app/)
 - #### [Contributing](https://next-template-docs.vercel.app/docs/contributing)
+
