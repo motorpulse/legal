@@ -4,4 +4,8 @@
   ul, ol {
     list-style: unset;
   }
+
+  blockquote {
+    @apply bg-secondary-bg rounded-[2.0rem] p-[2.0rem] border-top-border border flex flex-col gap-[1.0rem];
+  }
 }

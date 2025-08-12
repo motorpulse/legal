@@ -1,6 +1,7 @@
 import { env } from '@/utils/env';
-import { naturalDate } from '@/utils/misc';
 import type { Sitemap } from '@/utils/seo/sitemap-utils';
+
+import privacyPolicyUpdatedAt from './(legal)/privacy-policy/updated-at';
 
 /**
  * Generates sitemap for whole application.
@@ -18,7 +19,7 @@ export default function sitemap(): Sitemap {
     },
     {
       url: `${CANONICAL}/privacy-policy`,
-      lastModified: naturalDate(12, 8, 2025),
+      lastModified: privacyPolicyUpdatedAt(),
       changeFrequency: 'never',
       priority: 1,
     },

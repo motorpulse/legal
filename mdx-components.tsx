@@ -37,21 +37,5 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         <u className={cn('text-current')}>{children}</u>
       </a>
     ),
-    // eslint-disable-next-line jsdoc/require-jsdoc
-    blockquote: ({ children }) => (
-      <blockquote
-        style={{
-          background: 'rgb(var(--colors-secondary-bg))',
-          borderRadius: '2.0rem',
-          padding: '2.0rem',
-          border: '1px solid rgb(var(--colors-top-border))',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: '1.0rem',
-        }}
-      >
-        {children}
-      </blockquote>
-    ),
   };
 }
