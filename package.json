@@ -111,7 +111,7 @@
     "tsd": "^0.32.0",
     "tsx": "^4.20.3",
     "type-fest": "^4.39.1",
-    "vite-tsconfig-paths": "^4.3.2",
+    "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.4",
     "vitest-matchmedia-mock": "^2.0.1",
     "xenopomp-essentials": "^0.2.0"
